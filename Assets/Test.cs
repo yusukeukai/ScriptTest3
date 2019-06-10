@@ -5,10 +5,6 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
 
-
-
-
-
     // Use this for initialization
     void Start()
     {
@@ -22,11 +18,11 @@ public class Test : MonoBehaviour
         array[4] = 40;
 
         for (int i = 0; i < 5; i++) {
-            for (int y = 5; y > 0; y--)
-                Debug.Log(i + y);
-            
+            Debug.Log(array[i]);
 
-
+        }
+        for (int i =4;i>0; i--) {
+            Debug.Log(array[i]);
         }
     }
 }
